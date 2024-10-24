@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Portfolio</title>
+</head>
+
+<body class="container text-center ">
+  <img class="img-thambnail rounded-circle w-25 mt-5" src="imagens/Eu.jpg" alt="Eu">
+  <p></p>
+  <h1 class="mt-3">Eu sou o Samuel</h1>
+  <p>Prazer, meu nome é Samuel e eu gosto de música e a area da advocacia, e estes são alguns dos meus projetos.</p>
+  <h3>Linguagens que tive contato:</h3>
+  <div>
+    <p class="badge text-bg-primary">HTML</p>
+    <p class="badge text-bg-primary">CSS</p>
+    <p class="badge text-bg-primary">Javascript</p>
+    <p class="badge text-bg-primary">Python</p>
+    <p class="badge text-bg-primary">C</p>
+  </div>
+  <main class="container">
+    <div class="container row justify-content-around">
+        <div class="card col-md-4 m-3" style="height: 25rem; width: 18rem;">
+            <img src="imagens/tratamento.png" class="card-img-top pt-3" alt="Tratamento">
+            <div class="card-body">
+              <h5 class="card-title">Tratamento de Dados</h5>
+              <p class="card-text">Projeto desenvolvido para mostrar dados de uma pesquisa.</p>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modal1">Saiba Mais</button>
+            </div>
+          </div>
+          <div class="card col-md-4 m-3" style="height: 25rem; width: 18rem;">
+            <img src="imagens/acerteONumero.png" class="card-img-top pt-3" alt="Acerte o numero">
+            <div class="card-body">
+              <h5 class="card-title">Acerte o número</h5>
+              <p class="card-text">Projeto desenvolvido utilizando uma API de reconhecimento de voz.</p>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modal2">Saiba Mais</button>
+            </div>
+          </div>
+          <div class="card col-md-4 m-3" style="height: 25rem; width: 18rem;">
+            <img src="imagens/flappyBird.png" class="card-img-top pt-3" alt="Flappy Bird">
+            <div class="card-body">
+              <h5 class="card-title">Flappy Bird</h5>
+              <p class="card-text">Jogo de plataforma mobile usando Javascript.</p>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modal3">Saiba Mais</button>
+            </div>
+          </div>
+    </div>
+    <div class="container row justify-content-around">
+      <div class="card col-md-4 m-3" style="height: 25rem; width: 18rem;">
+        <img src="imagens/portifolio.png" class="card-img-top pt-3" alt="MS Maquinas">
+        <div class="card-body">
+          <h5 class="card-title">Portfolio</h5>
+          <p class="card-text">portfolio desenvolvido em HTML, CSS e JavaScript</p>
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modal4">Saiba Mais</button>
+        </div>
+      </div>
+      <div class="card col-md-4 m-3" style="height: 25rem; width: 18rem;">
+        <img src="imagens/projetoPythonGaragem.png" class="card-img-top pt-3" alt="Garagem">
+        <div class="card-body">
+          <h5 class="card-title">Garagem</h5>
+          <p class="card-text">Projeto desenvolvido em Python, uma lista de carro famosos.</p>
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modal5">Saiba Mais</button>
+        </div>
+      </div>
+      <div class="card col-md-4 m-3" style="height: 25rem; width: 18rem;">
+        <img src="imagens/voceDecide.png" class="card-img-top pt-3" alt="Você Decide">
+        <div class="card-body">
+          <h5 class="card-title">Você Decide</h5>
+          <p class="card-text">Projeto desenvolvido em JavaScript, uma pequena historia de aventura com escolhas e consequencias.</p>
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modal6">Saiba Mais</button>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="modal fade" id="Modal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Tratamento de Dados</h5>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p> Projeto feito com JavaScript, utilizando pesquisas e gráficos. O primeiro gráfico mostra uma pesquisa ficticia feita com IA com um total de 10 mil pessoas, onde eles tiveram que escolher entre os salgados que eles mais gostavam. Já no segundo gráfico, ele mostra a pesquisa feita na escola. </p>
+              <img class="w-100" src="imagens/tratamento.png">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary"><a href="https://samuelvn007.github.io/TRATAMENTO-DE-DADOS-CONCERTADO/">Visite o Site</a></button>
+              <button type="button" class="btn btn-primary"><a href="https://github.com/SamuelVn007/TRATAMENTO-DE-DADOS-CONCERTADO">Visite o Repositorio</a></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="modal fade" id="Modal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Acerte o numero</h5>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p> Projeto feito em JavaScript, com intuito de utilizar uma API de reconhecimento de voz. Tudo o que precisa ser feito e permitir a captura de voz, falar um numero e o site ira dizer se o valor dito é menor ou maior do que o número secreto. Caso você diga algo diferente de um valor número, ele emitira uma mensagem digendo que o "Valor e Invalido"</p>
+              <img class="w-100" src="imagens/acerteONumero.png">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary"><a href="https://samuelvn007.github.io/numero-secreto-3-D.S/">Visite o Site</a></button>
+              <button type="button" class="btn btn-primary"><a href="https://github.com/SamuelVn007/numero-secreto-3-D.S">Visite o Repositorio</a></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="modal fade" id="Modal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Flappy Bird</h5>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p> Projeto de um jogo feito em JavaScript, jogo mobile de plataforma chamado Flappy Bird. O objetivo do jogo é você (jogador) desviar dos canos com um passaro. O jogo em si não tem fim, um dos objetivos é testar até onde você consegue chegar.  </p>
+              <img class="w-100" src="imagens/flappyBird.png">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary"><a href="https://github.com/SamuelVn007/flappy-bird">Visite o Repositorio</a></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="modal fade" id="Modal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">MS Maquinas</h5>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p> Projeto feito em HTML, CSS e JavaScript. Este é o meu primeiro portfolio que eu fiz na aula de computação gráfica em um trabalho, dizendo quem sou eu, o que eu já fiz na vida, habilidades de soft, ou hard skills. </p>
+              <img class="w-100" src="imagens/portifolio.png">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary"><a href="https://github.com/SamuelVn007/portifolio-novo">Visite o Repositorio</a></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="modal fade" id="Modal5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Global Explorer</h5>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p> Este projeto foi feito unicamente em python. É uma garagem dizendo algumas marcas famosas seu país de origem, e se não veioo de certo país, ele diz que não é o país de origem, e também diz quem o criou.</p>
+              <img class="w-100" src="imagens/projetoPythonGaragem.png">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary"><a href="https://github.com/SamuelVn007/python-12-09-24">Visite o Repositorio</a></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="modal fade" id="Modal6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Acerte o numero</h5>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p> Projeto feito em JavaScript. Esta uma aventura onde você é um caçador de tesouros. Você busca um tesouro escondido que se encontar em uma ilha, mas não é só isso, você decide as escolhas, e dependendo das escolhas, o final pode acabar mudando. Depende de você se ira enfrentar o terrível monstro que naquela ilha habita, boa sorte!  </p>
+              <img class="w-100" src="imagens/voceDecide.png">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary"><a href="https://samuelvn007.github.io/tesouro-escondido-3-D.S/">Visite o Site</a></button>
+              <button type="button" class="btn btn-primary"><a href="https://github.com/SamuelVn007/tesouro-escondido-3-D.S">Visite o Repositorio</a></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="modal fade" id="Modal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Acerte o numero</h5>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p></p>
+              <img class="w-100" src="imagens/acerteONumero.png">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary"><a href="">Visite o Site</a></button>
+              <button type="button" class="btn btn-primary"><a href="">Visite o Repositorio</a></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+</main>
+<footer class="container pt-5 mt-5 ">
+  <h2>Entre contato</h2>
+  <div>
+    <a class=" link me-3" href="https://github.com/SamuelVn007">Github</a>
+    <a class="link" href="https://www.linkedin.com/in/samuel-vinicius-wingert-82233230b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">LinkedIn</a>
+  </div>
+  <p class="my-2">&copy; Copyright 2024. Produzido por Samuel V. Wingert </p>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
